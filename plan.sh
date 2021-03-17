@@ -1,12 +1,12 @@
 pkg_name=gdal
 pkg_origin=core
-pkg_version=2.4.0
+pkg_version=2.4.4
 pkg_description="GDAL is a translator library for raster and vector geospatial data formats"
 pkg_upstream_url=http://www.gdal.org/
 pkg_license=('MIT')
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_source=http://download.osgeo.org/gdal/${pkg_version}/gdal-${pkg_version}.tar.gz
-pkg_shasum=a568cf3dc7bb203ae12a48e1eb2a42302cded499ef6eccaf9e8f09187d8ce75a
+pkg_shasum=e6a2456907610639d73fc6a82bb10aa6fa02e2d03b24edacde34a16b6aa91080
 pkg_build_deps=(
   core/gcc
   core/make
